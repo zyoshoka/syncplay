@@ -18,7 +18,7 @@ OPTIONS = {
     'iconfile': 'syncplay/resources/icon.icns',
     'extra_scripts': 'syncplayServer.py',
     'includes': {'PySide2.QtCore', 'PySide2.QtUiTools', 'PySide2.QtGui', 'PySide2.QtWidgets', 'certifi', 'cffi', 'pem', 'charset_normalizer.md__mypyc'},
-    'excludes': {'PySide', 'PySide.QtCore', 'PySide.QtUiTools', 'PySide.QtGui', 'tkinter'},
+    'excludes': {'PySide', 'PySide.QtCore', 'PySide.QtUiTools', 'PySide.QtGui', 'tkinter', 'setuptools'},
     'qt_plugins': [
         'platforms/libqcocoa.dylib',
         'platforms/libqminimal.dylib',
